@@ -1,7 +1,7 @@
 # MultiModal Neural Machine Translation
 
 # Background
-This project considers the problem of image captioning is considered with aim to produce a translation in a target language given the caption in source language, the corresponding image. Attention Models are used to make use of the visual features to disambiguate the words.
+This project considers the problem of image captioning with aim to produce a translation in a target language given the caption in source language, the corresponding image. Attention Models are used to make use of the visual features to disambiguate the words.
 This problem is a part of the [AMT workshop](http://lotus.kuee.kyoto-u.ac.jp/WAT/WAT2019/index.html). The dataset can be downloaded from [here](https://ufal.mff.cuni.cz/hindi-visual-genome).
 
 The dataset looks like this-
