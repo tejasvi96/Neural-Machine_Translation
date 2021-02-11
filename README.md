@@ -16,6 +16,7 @@ Two approaches were considered.
 1. Using text only features making use of a sequence to sequence attention based model. For this approach Eng_to_hindi.py file was used.
 1. Making use of the image features as well where we can use image feature by extracting the features output from a CNN model like VGG 's fc7 layer and convert this to the word embedding space using a separate network. Other approaches involve making use of the image features by downsampling it to the hidden dimension of recurrent model and using it as the first input hiddden state. For implementing this the [MultiModal Toolkit](https://github.com/iacercalixto/MultimodalNMT) was used with some changes.
 
+![Images.](https://github.com/tejasvi96/Neural-Machine_Translation/blob/main/images/NMT_model.png?raw=True)
 ## Results
 
 | Approach  | Bleu Score |
